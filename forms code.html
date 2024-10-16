@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .login{
+                border: 3px solid yellow;
+                max-width: max-content;
+                padding: 20px 500px;
+                margin: 10px auto;
+            }
+            input[type=button]{
+                display: block;
+                background-color: blanchedalmond;
+                margin: 0 auto;
+            }
+            </style>
+    </head>
+    <body>
+              <div class="login">
+            <form>
+                <label for="email">Enter Your Email:</label>
+                <input type="email"name="email"id="email"/>
+                <br/>
+                <label for="password">Enter Your Password:</label>
+                <input type="password"name="password"id="password"/>
+            </br>
+                <label>
+                    GENDER:
+                    <input type="radio"name="GENDER"value="male"unchecked="unchecked"/>male
+                    <input type="radio"name="GENDER"value="female"unchecked="unchecked"/>female
+                </label>
+                <br/>
+            
+            <input type="button"value="LOGIN"/>
+        </br>
+        <fieldset>
+            <legend>UNIT CODE</legend>
+            <input type="search" name="search" />
+            <input type="submit" value="Search" />
+        </br>
+                <label> 
+                     <input type="CHECKBOX"name="UNIT CODE"value="CIT203"unchecked="unchecked"/>CIT203
+                </br>
+                    <input type="CHECKBOX"name="UNIT CODE"value="CIR207"unchecked="unchecked"/>CIR207
+                </br>
+                    <input type="CHECKBOX"name="UNIT CODE"value="CIR237"unchecked="unchecked"/>CIR237
+                </br>
+                    <input type="CHECKBOX"name="UNIT CODE"value="CIR227"unchecked="unchecked"/>CIR227
+            </br>
+            <input type="CHECKBOX"name="UNIT CODE"value="CIR213"unchecked="unchecked"/>CIR213
+        </br>
+        <input type="CHECKBOX"name="UNIT CODE"value="CIR211"unchecked="unchecked"/>CIR211
+    </br>
+    <input type="CHECKBOX"name="UNIT CODE"value="CIR225"unchecked="unchecked"/>CIR225
+</br>
+            <label for="Hours to be taught">
+                Hours to be taught:
+            </label>
+            <select name="Hours to be taught">Hours to be taught/>
+                <option Duration="8Hrs">8Hrs</option>
+                <option Duration="16Hrs">16Hrs</option>
+                <option Duration="18Hrs">18Hrs</option>
+                <option Duration="20Hrs">20Hrs</option>
+                <option Duration="40Hrs">40Hrs</option>
+            </select>
+                </label>
+            </br>
+            <i><p>Please Enter Online Library Website Address:</p></i>
+            <input type="url" name="website" />
+            <input type="submit" value="Submit" />
+        </br>
+            <p><input type="submit"> <input type="reset" value="Reset"></p>
+            </fieldset>
+            
+            </form>
+        </div>
+    </body>
+</html>
